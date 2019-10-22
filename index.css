@@ -1,0 +1,63 @@
+.cuerpo {
+	background: -webkit-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: -moz-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: -ms-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: -o-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+}
+
+.titulo {
+	text-align: center;
+	color: white;
+}
+
+.subtitulo {
+	color: #ffffff;
+
+}
+
+.divGeneral {
+	padding-left: 5%;
+}
+
+#inputEmail3 , #inputPassword3 {
+	border-radius: 2px;
+	border-color: black;
+	width: 15%;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.ingresar {
+	border-radius: 2px;
+	width: 10%;
+	height: 25px;
+	padding-left: 10px;
+	border-color: black;
+	background-color: white;
+	
+}
+
+.documentacion {
+	border-radius: 2px;
+	border-color: black;
+	width: 13%;
+	height: 25px;
+	padding-left: 10px;
+}
+
+.dni {
+	border-radius: 2px;
+	border-color: black;
+	width: 12%;
+	height: 30px;
+	padding-left: 10px;
+}
+
+#desde , #hasta {
+	border-radius: 2px;
+	border-color: black;
+	width: 12%;
+	height: 30px;
+	padding-left: 10px;
+}
