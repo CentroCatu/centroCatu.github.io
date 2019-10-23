@@ -4,32 +4,34 @@
             <title>Crear reservas</title>
             <link rel="stylesheet" type="text/css" href="index.css">
         </head>
-            <body id="cuerpo">
-                <h1 id="titulo">Bienvenidos a Hotel CatuTesting</h1>
-                    <div id="divGeneral">  
-                        <h2 id="subtitulo"> Crear Reserva</h2>
+            <body class="cuerpo">
+                <h1 class="titulo">Bienvenidos a Hotel CatuTesting</h1>
+                    <div class="divGeneral">  
+                        <h2 class="text"> Crear Reserva</h2>
                         
                         <div></div>
                             <h4>Tipo de documentación</h4>
-                                <select name="" id="documentacion">
+                                <select name="" class="documentacion">
                                     <option value="">DNI</option>
                                     <option value="">PASAPORTE</option>
                                 </select> 
                                 <p>
 
-                            <input type="text" placeholder="Ingresar valor numérico" name= 'dni' onchange="habilitarDesdeHasta()" id="dni" required="numérico">
+                            <input type="number" placeholder="Ingresar valor numérico" name= 'dni' onchange="habilitarDesdeHasta()" class="dni">
 
 
-                            <h4>Tiempo de reserva</h4>
-                            <label for="desde" >Desde</label>
+                            <h4 class="text">Tiempo de reserva</h4>
+                            <label for="desde" class="text">Desde:</label>
+                            <p>
                             <input type="date" id="desde" name="desde" disabled>
                             <p>
                             
-                            <label for="hasta">Hasta</label>
+                            <label for="hasta" class="text">Hasta:</label>
+                            <p>
                             <input onchange="habilitarHabitaciones()"  id="hasta" type="date" name="hasta" disabled>
                             <br>
 
-                                <div id="habitaciones" hidden>
+                                <div class="habitaciones" hidden>
                                     <div>
                                         <h1>Habitación 1</h1>
                                             <div class="checkbox">
@@ -57,7 +59,7 @@
                                 </div>
                                 <br>
 
-                        <button onclick="confirmar()"> confirmar reserva</button>
+                        <button onclick="confirmar()" class="boton"> confirmar reserva</button>
                         <script src="crear_reserva.js"></script>
                     </div>
              </body>

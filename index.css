@@ -1,18 +1,21 @@
-#cuerpo {
-	background-color: rgba(66,51,255);
+.cuerpo {
+	background: -webkit-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: -moz-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: -ms-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: -o-linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
+	background: linear-gradient(90deg, #FF00D1 30%, #0004FF 70%);
 }
 
-#titulo {
+.titulo {
 	text-align: center;
 	color: white;
 }
 
-#subtitulo {
+.text {
 	color: white;
-
 }
 
-#divGeneral {
+.divGeneral {
 	padding-left: 5%;
 }
 
@@ -20,11 +23,11 @@
 	border-radius: 2px;
 	border-color: black;
 	width: 15%;
-	height: 20px;
+	height: 30px;
 	padding-left: 10px;
 }
 
-#ingresar {
+.ingresar {
 	border-radius: 2px;
 	width: 10%;
 	height: 25px;
@@ -34,26 +37,44 @@
 	
 }
 
-#documentacion {
+.documentacion {
 	border-radius: 2px;
 	border-color: black;
 	width: 13%;
 	height: 25px;
 	padding-left: 10px;
+	margin-left: 5%;
 }
 
-#dni {
+.dni {
 	border-radius: 2px;
 	border-color: black;
 	width: 12%;
-	height: 20px;
+	height: 25px;
 	padding-left: 10px;
+	margin-left: 5%;
 }
 
-#desde , #hasta {
+#desde , #hasta	{
 	border-radius: 2px;
 	border-color: black;
 	width: 12%;
-	height: 20px;
+	height: 25px;
 	padding-left: 10px;
+	margin-left: 5%;
+
+}
+
+.boton {
+	height: 25px;
+	margin-left: 5%;
+}
+
+.requerimientos {
+	border-radius: 2px;
+	border-color: black;
+	width: 25%;
+	height: 25px;
+	padding-left: 10px;
+	margin-left: 5%;
 }
